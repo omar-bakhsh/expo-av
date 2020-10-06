@@ -1,0 +1,13 @@
+ const on_press_handle = ()=>{
+ 
+ 
+ // it shuld be async function .
+ (async () => {
+         const play_yes = await Audio.Sound.createAsync(
+         require('../assets/sounds/no.wav'),
+                        { shouldPlay: true }
+                        );
+                })();
+                
+                
+}
