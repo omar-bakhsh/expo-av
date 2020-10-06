@@ -1,4 +1,7 @@
- const on_press_handle = ()=>{
+ import { Audio } from 'expo-av';
+ 
+ 
+const on_press_handle = ()=>{
  
  
  // it shuld be async function .
